@@ -20,7 +20,7 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.create("chartdiv", am4charts.XYChart);
 chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
 
-chart.dataSource.url = "https://github.com/Osenday/IGIC/blob/main/visitas.json";
+chart.dataSource.url = "https://raw.githubusercontent.com/Osenday/IGIC/refs/heads/main/visitas.json";
 
 var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
 categoryAxis.renderer.grid.template.location = 0;
